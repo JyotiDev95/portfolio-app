@@ -4,17 +4,14 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/autoplay";
 import { Autoplay } from "swiper/modules";
-
-// import graphql from "../assets/logos/graphql.png";
 import tailwind from "../assets/logos/tailwind.svg";
 import mui from "../assets/logos/MUI-logo.svg";
 import css from "../assets/logos/css3-original.svg";
 import figma from "../assets/logos/figma.svg";
 import firebase from "../assets/logos/firebase-plain.svg";
 import html from "../assets/logos/html5-original.svg";
-import js from "../assets/logos/JavaScript-original.svg";
+import js from "../assets/logos/javascript-original.svg";
 import chakra from "../assets/logos/chakra-ui.svg";
-
 import webpack from "../assets/logos/webpack.svg";
 import git from "../assets/logos/git-original.svg";
 import node from "../assets/logos/nodejs-original.svg"; 
