@@ -1,7 +1,5 @@
 import React, { useState } from "react";
 import { ExternalLink } from "lucide-react";
-
-import travelImg from "../assets/projects/Typing-Test.png";
 import ERPimage from "../assets/projects/ERP-SS.png";
 import Foodu from "../assets/projects/Foodu-SS.png";
 import ERPDemoo from "../assets/projects/Welcome - One 87.mp4";
