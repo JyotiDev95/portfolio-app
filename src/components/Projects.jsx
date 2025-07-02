@@ -49,8 +49,8 @@ const Projects = () => {
   return (
     <section id="projects" className="py-24 px-6 text-white">
       <div className="max-w-6xl mx-auto">
-        <h2 className="text-center text-4xl font-bold mb-2 text-gray-700 dark:text-white">Projects I have built</h2>
-        <p className="text-center text-lg text-gray-400 mb-4">Some things I've built recently</p>
+        <h2 className="text-center text-4xl font-bold mb-2 text-gray-700 dark:text-white">Projects I have built recently</h2>
+        <p className="text-center text-lg text-gray-400 mb-4">Innovative Projects with Intuitive Design</p>
         <div className="h-1 w-52 mx-auto mt-4 mb-12 bg-gradient-to-r from-pink-500 via-purple-500 to-transparent rounded-full"></div>
 
         <div className="grid gap-10 md:grid-cols-2">
@@ -104,12 +104,12 @@ const Projects = () => {
         </div>
 
         <div className="text-center mt-10">
-          <button
+          {/* <button
             onClick={() => setShowAll(!showAll)}
             className="px-6 py-2 rounded-full border border-pink-500 text-pink-500 hover:bg-pink-500 hover:text-black transition"
           >
             {showAll ? "Show Less" : "Show More"}
-          </button>
+          </button> */}
         </div>
       </div>
     </section>

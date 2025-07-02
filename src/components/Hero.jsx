@@ -3,6 +3,7 @@ import profileImg from "../assets/girl-img.png";
 import { motion } from 'framer-motion';
 import SocialIcon from './SocialIcon';
 import { Link } from 'lucide-react';
+import CVpdf from "../assets/Jyoti Prakash-Dev-July-CV.pdf"
 
 const Hero = () => {
   return (
@@ -36,7 +37,7 @@ const Hero = () => {
               <p>I’m a Frontend Developer with several years of experience building modern, scalable, and responsive web applications using React.js, TypeScript, and Tailwind CSS.</p>
               <p>I translate design systems into accessible, user-friendly components aligned with business goals. With strong skills in state management, API integration, and frontend architecture, I deliver clean, efficient code and thrive in collaborative, growth-focused environments.</p>
               <a
-                href="/Jyoti-Prakash-CV.pdf"
+                href={CVpdf}
                 download
                 className="relative z-10 px-4 max-w-max py-2 overflow-hidden border-spacing-1 rounded-full group flex justify-center gap-2 items-center shadow-xl text-lg text-gray-700 bg-gray-50 backdrop-blur-md lg:font-semibold isolation-auto border-gray-50 before:absolute before:w-full before:transition-all before:duration-700 before:hover:w-full before:-left-full before:hover:left-0 before:rounded-full hover:text-white before:-z-10 before:aspect-square before:hover:scale-150 before:hover:duration-700 gradient-hover transition-colors delay-200
 "

@@ -16,10 +16,13 @@ import TechLogoSlider from './components/TechLogoSlider';
 
 
 const App = () => {
-
-  useEffect(() => {
+useEffect(() => {
   AOS.init({ duration: 800, once: true });
+
+  // Enable dark mode by default
+  document.documentElement.classList.add('dark');
 }, []);
+
   return (
 <div className=" font-inter text-white bg-gradient-to-r from-rose-200 via-white via-30% to-white dark:from-[#670334] dark:to-gray-900">
       <Header />
