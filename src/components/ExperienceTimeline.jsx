@@ -37,7 +37,7 @@ const ExperienceTimeline = () => {
   }, []);
 
   return (
-    <section className="py-20 px-6 text-white">
+    <section className="py-24 px-6 text-white">
       <h2 className="text-center text-4xl font-bold mb-2 text-gray-700 dark:text-white">Most Recent Work Experience</h2>
       <p className="text-center text-lg text-gray-400 mb-12">
         My experience as a Frontend Developer

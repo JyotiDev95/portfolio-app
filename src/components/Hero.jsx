@@ -6,7 +6,6 @@ import { Link } from 'lucide-react';
 
 const Hero = () => {
   return (
-
     <section className="min-h-screen  hero-sec relative">
       <SocialIcon />
       <div className='flex items-center justify-center gap-2 px-6 py-12 hero-sec relative'>
@@ -17,38 +16,30 @@ const Hero = () => {
               initial={{ opacity: 0, x: -100 }}
               animate={{ opacity: 1, x: 0 }}
               transition={{ duration: 0.8, delay: 0.4 }}
-            // className="w-full md:w-1/2 flex justify-center"
             >
               <img
                 src={profileImg}
                 alt="Jyoti Prakash"
-              // className="rounded-lg max-w-xs md:max-w-sm grayscale"
               />
             </motion.div>
           </div>
-
-          {/* Right: Text */}
           <motion.div
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ duration: 3, delay: 0.3 }}
             className="w-full md:w-1/2 space-y-6 max-w-2xl"
           >
-            {/* <div className=""> */}
-            {/* <h1 className="text-4xl text-gray-900 font-bold dark:text-white">Frontend Developer</h1> */}
             <div className="bg-gray-900 p-8 rounded-lg text-gray-300 text-lg space-y-6">
               <h1 className='text-6xl font-bold text-white'>Jyoti Prakash</h1>
               <h2 className='text-2xl font-bold text-gray-400'>I craft modern and scalable web experiences.</h2>
 
-              <p>I’m a Frontend Developer with several years of hands-on experience designing and building modern, scalable, and responsive web applications. My expertise lies in developing intuitive user interfaces using technologies like React.js, TypeScript, and Tailwind CSS, with a strong focus on maintainability, performance, and cross-browser compatibility.</p>
+              <p>I’m a Frontend Developer with several years of experience building modern, scalable, and responsive web applications using React.js, TypeScript, and Tailwind CSS.</p>
               <p>I translate design systems into accessible, user-friendly components aligned with business goals. With strong skills in state management, API integration, and frontend architecture, I deliver clean, efficient code and thrive in collaborative, growth-focused environments.</p>
-              {/* </div> */}
-
               <a
-              href="/Jyoti-Prakash-CV.pdf"
-  download
-                
-  className="relative z-10 px-4 max-w-max py-2 overflow-hidden border-spacing-1 rounded-full group flex justify-center gap-2 items-center shadow-xl text-lg text-gray-700 bg-gray-50 backdrop-blur-md lg:font-semibold isolation-auto border-gray-50 before:absolute before:w-full before:transition-all before:duration-700 before:hover:w-full before:-left-full before:hover:left-0 before:rounded-full hover:text-white before:-z-10 before:aspect-square before:hover:scale-150 before:hover:duration-700 gradient-hover"
+                href="/Jyoti-Prakash-CV.pdf"
+                download
+                className="relative z-10 px-4 max-w-max py-2 overflow-hidden border-spacing-1 rounded-full group flex justify-center gap-2 items-center shadow-xl text-lg text-gray-700 bg-gray-50 backdrop-blur-md lg:font-semibold isolation-auto border-gray-50 before:absolute before:w-full before:transition-all before:duration-700 before:hover:w-full before:-left-full before:hover:left-0 before:rounded-full hover:text-white before:-z-10 before:aspect-square before:hover:scale-150 before:hover:duration-700 gradient-hover transition-colors delay-200
+"
               >
                 Download CV
                 <svg
@@ -62,9 +53,7 @@ const Hero = () => {
                   ></path>
                 </svg>
               </a>
-
             </div>
-            {/* </div> */}
           </motion.div>
         </div>
       </div>

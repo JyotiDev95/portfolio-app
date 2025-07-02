@@ -21,7 +21,7 @@ const App = () => {
   AOS.init({ duration: 800, once: true });
 }, []);
   return (
-<div className=" font-inter text-white bg-gradient-to-r from-red-100 via-white via-30% to-white dark:from-red-950 dark:to-black">
+<div className=" font-inter text-white bg-gradient-to-r from-rose-200 via-white via-30% to-white dark:from-[#670334] dark:to-gray-900">
       <Header />
 
       <Hero />

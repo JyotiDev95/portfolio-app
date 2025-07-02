@@ -25,6 +25,7 @@ body {
   background: linear-gradient(270deg, #87062b, #ffb5d2);
   z-index: -2;
   box-shadow: inset 0px 0px 180px 5px #ffffff;
+
 }
 
 .main {
@@ -38,6 +39,10 @@ body {
   z-index: 0;
   
   transition: transform 0.3s ease-in-out;
+    animation-name: spin;
+  animation-duration: 4s;
+  animation-delay: -2s;
+  animation-iteration-count: infinite;
 }
 
 .card {
@@ -63,41 +68,22 @@ body {
   transition: 0.2s ease-in-out;
   fill: #cc39a4;
 }
-
-/* .card:nth-child(2) {
-  border-radius: 0px;
-} */
-
 .card:nth-child(2) .twitter {
   opacity: 0;
   transition: 0.2s ease-in-out;
   fill: #03a9f4;
 }
-
-/* .card:nth-child(3) {
-  border-top-right-radius: 10px;
-  border-top-left-radius: 0px;
-} */
-
 .card:nth-child(3) .dribble {
   opacity: 0;
   transition: 0.2s ease-in-out;
   fill: #ffb5d2;
 }
 
-/* .card:nth-child(4) {
-  border-radius: 0px;
-} */
-
 .card:nth-child(4) .codepen {
   opacity: 0;
   transition: 0.2s ease-in-out;
   fill: black;
 }
-
-/* .card:nth-child(5) {
-  border-radius: 0px;
-} */
 
 .card:nth-child(5) .uiverse {
   position: absolute;
@@ -329,4 +315,11 @@ body {
 .gradient-hover::before {
   content: "";
   background: linear-gradient(to right, #ec4899, #9b13ad, #6366f1); /* pink → purple → indigo */
+}
+@keyframes spin {
+  0%   { left:0px; top:0px;}
+  25%  {left:30px; top:0px;}
+  50%  { left:30px; top:30px;}
+  75%  { left:0px; top:30px;}
+  100% { left:0px; top:0px;}
 }
