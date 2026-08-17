@@ -3,7 +3,7 @@ import profileImg from "../assets/girl-img.png";
 import { motion } from 'framer-motion';
 import SocialIcon from './SocialIcon';
 import { Link } from 'lucide-react';
-import CVpdf from "../assets/Jyoti Prakash-Dev-July-CV.pdf"
+import CVpdf from "../assets/Jyoti Prakash Frontend Dev. CV-2026.pdf"
 
 const Hero = () => {
   return (
